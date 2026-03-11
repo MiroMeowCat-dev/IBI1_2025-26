@@ -7,7 +7,13 @@ e = c - b
 
 print("d =", d)
 print("e =", e)
-
+if e > d:
+    print("population growth is accelerating.")
+elif e < d:
+    print("population growth is decelerating.")
+elif e == d:
+    print("population growth is constant.")
+    
 # Population growth is decelerating because e is smaller than d.
 
 X = True
