@@ -1,0 +1,5 @@
+This practical was interesting because it connected programming with a real biological problem. I learned how to use a stochastic SIR model to simulate the spread of an infection, and I could see clearly how the numbers of susceptible, infected, and recovered people changed over time. Adding vaccination made the model more realistic and helped me understand why higher vaccination rates reduce disease spread.
+
+The spatial SIR model was the hardest part for me, because I had to work with a 2D array and think carefully about neighbours, boundaries, and updating the grid correctly. At first it was a bit confusing, but after finishing it I felt that I understood the logic much better.
+
+The most important thing I learned from this practical is that real-world biological processes can be simplified into computational models, and that randomness can strongly affect model outcomes. I also became more familiar with Python syntax, plotting, and debugging.
