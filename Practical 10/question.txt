@@ -1,0 +1,8 @@
+Question:
+What was the distribution of DALYs across all countries in 2019?
+
+Line number in dalys.py:
+78
+
+Discussion:
+The distribution is not uniform. Most countries are concentrated in a lower DALYs range, while a smaller number of countries have much higher DALYs values. This suggests that the burden of disease is unevenly distributed across countries.
