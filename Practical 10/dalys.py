@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-os.chdir("/Users/36135/Desktop/IBI1/IBI1_2025-26/Practical 10")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Check directory
 print(os.getcwd())
