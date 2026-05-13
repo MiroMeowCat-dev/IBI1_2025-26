@@ -1,0 +1,11 @@
+# Practical 13 Summary
+
+In this practical, I compared the human DLX5 protein sequence with mouse DLX5 and a randomly generated protein sequence. The aim was to understand the logic of sequence comparison and to implement a simple pairwise non-gapped global alignment program in Python.
+
+From UniProt, the human DLX5 protein was found to be 289 amino acids long. Its subcellular localisation is mainly nuclear, which is consistent with its role as a transcription factor. In the online UniProt BLAST analysis restricted to Eutheria, 250 hits were obtained. The percentage identity of the retrieved alignments ranged from 52.3% to 100%. The mouse DLX5 protein, UniProt ID P70396, showed 96.5% identity with human DLX5.
+
+Using my Python alignment program, I compared three pairs of sequences. The human DLX5 and mouse DLX5 comparison produced a BLOSUM62 total score of 1490, with a normalised score of 5.16 per amino acid. There were 279 identical amino acids out of 289, giving a percentage identity of 96.54%.
+
+In contrast, the comparison between human DLX5 and the random sequence produced a BLOSUM62 total score of -257, with a normalised score of -0.89 per amino acid. Only 15 amino acids were identical, giving a percentage identity of 5.19%. The comparison between mouse DLX5 and the random sequence produced a BLOSUM62 total score of -268, with a normalised score of -0.93 per amino acid. Only 14 amino acids were identical, giving a percentage identity of 4.84%.
+
+These results show that human DLX5 and mouse DLX5 are much more closely related to each other than either sequence is to the random protein sequence. The high BLOSUM62 score and high percentage identity indicate that the DLX5 protein sequence is strongly conserved between human and mouse. In contrast, the random sequence produced negative BLOSUM62 scores and very low percentage identities, showing that its similarity to DLX5 is only due to chance. Therefore, human DLX5 and mouse DLX5 are the most closely related sequences in this analysis.
